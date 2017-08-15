@@ -1,7 +1,8 @@
 //: io/GetData.java
+package SourceCode.io;
 // Getting different representations from a ByteBuffer
-import java.nio.*;
-import static net.mindview.util.Print.*;
+import java.nio.ByteBuffer;
+import static SourceCode.net.mindview.util.Print.*;
 
 public class GetData {
   private static final int BSIZE = 1024;

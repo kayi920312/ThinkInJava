@@ -1,4 +1,5 @@
 //: io/Redirecting.java
+package SourceCode.io;
 // Demonstrates standard I/O redirection.
 import java.io.*;
 

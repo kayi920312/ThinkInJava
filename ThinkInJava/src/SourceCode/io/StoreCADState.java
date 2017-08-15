@@ -1,4 +1,5 @@
 //: io/StoreCADState.java
+package SourceCode.io;
 // Saving the state of a pretend CAD system.
 import java.io.*;
 import java.util.*;

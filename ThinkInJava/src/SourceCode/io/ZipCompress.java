@@ -1,11 +1,24 @@
 //: io/ZipCompress.java
+package SourceCode.io;
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Enumeration;
 // Uses Zip compression to compress any
 // number of files given on the command line.
 // {Args: ZipCompress.java}
-import java.util.zip.*;
-import java.io.*;
-import java.util.*;
-import static net.mindview.util.Print.*;
+import java.util.zip.Adler32;
+import java.util.zip.CheckedInputStream;
+import java.util.zip.CheckedOutputStream;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
+import java.util.zip.ZipInputStream;
+import java.util.zip.ZipOutputStream;
+import static SourceCode.net.mindview.util.Print.*;
 
 public class ZipCompress {
   public static void main(String[] args)

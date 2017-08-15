@@ -1,9 +1,14 @@
 //: io/Logon.java
+package SourceCode.io;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.util.Date;
 // Demonstrates the "transient" keyword.
-import java.util.concurrent.*;
-import java.io.*;
-import java.util.*;
-import static net.mindview.util.Print.*;
+import java.util.concurrent.TimeUnit;
+import static SourceCode.net.mindview.util.Print.*;
 
 public class Logon implements Serializable {
   private Date date = new Date();

@@ -1,7 +1,8 @@
 //: io/Blips.java
+package SourceCode.io;
 // Simple use of Externalizable & a pitfall.
 import java.io.*;
-import static net.mindview.util.Print.*;
+import static SourceCode.net.mindview.util.Print.*;
 
 class Blip1 implements Externalizable {
   public Blip1() {

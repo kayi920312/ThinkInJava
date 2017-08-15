@@ -1,4 +1,5 @@
 //: io/MakeDirectories.java
+package SourceCode.io;
 // Demonstrates the use of the File class to
 // create directories and manipulate files.
 // {Args: MakeDirectoriesTest}

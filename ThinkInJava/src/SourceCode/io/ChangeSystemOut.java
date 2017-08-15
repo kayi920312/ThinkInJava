@@ -1,4 +1,5 @@
 //: io/ChangeSystemOut.java
+package SourceCode.io;
 // Turn System.out into a PrintWriter.
 import java.io.*;
 

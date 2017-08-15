@@ -1,4 +1,5 @@
 //: io/IntBufferDemo.java
+package SourceCode.io;
 // Manipulating ints in a ByteBuffer with an IntBuffer
 import java.nio.*;
 

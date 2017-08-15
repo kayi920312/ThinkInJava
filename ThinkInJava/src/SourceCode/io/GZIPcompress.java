@@ -1,4 +1,5 @@
 //: io/GZIPcompress.java
+package SourceCode.io;
 // {Args: GZIPcompress.java}
 import java.util.zip.*;
 import java.io.*;

@@ -1,6 +1,13 @@
 //: io/ViewBuffers.java
-import java.nio.*;
-import static net.mindview.util.Print.*;
+package SourceCode.io;
+import java.nio.ByteBuffer;
+import java.nio.CharBuffer;
+import java.nio.DoubleBuffer;
+import java.nio.FloatBuffer;
+import java.nio.IntBuffer;
+import java.nio.LongBuffer;
+import java.nio.ShortBuffer;
+import static SourceCode.net.mindview.util.Print.*;
 
 public class ViewBuffers {
   public static void main(String[] args) {

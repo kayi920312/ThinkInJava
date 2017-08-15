@@ -1,6 +1,8 @@
 //: io/UsingBuffers.java
-import java.nio.*;
-import static net.mindview.util.Print.*;
+package SourceCode.io;
+import java.nio.ByteBuffer;
+import java.nio.CharBuffer;
+import static SourceCode.net.mindview.util.Print.*;
 
 public class UsingBuffers {
   private static void symmetricScramble(CharBuffer buffer){

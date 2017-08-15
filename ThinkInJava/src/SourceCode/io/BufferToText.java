@@ -1,4 +1,5 @@
 //: io/BufferToText.java
+package SourceCode.io;
 // Converting text to and from ByteBuffers
 import java.nio.*;
 import java.nio.channels.*;

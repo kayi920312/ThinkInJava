@@ -1,6 +1,7 @@
 //: io/PreferencesDemo.java
-import java.util.prefs.*;
-import static net.mindview.util.Print.*;
+package SourceCode.io;
+import java.util.prefs.Preferences;
+import static SourceCode.net.mindview.util.Print.*;
 
 public class PreferencesDemo {
   public static void main(String[] args) throws Exception {

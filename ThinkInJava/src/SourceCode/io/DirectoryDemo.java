@@ -1,8 +1,12 @@
 //: io/DirectoryDemo.java
+package SourceCode.io;
+import static SourceCode.net.mindview.util.Print.print;
+
 // Sample use of Directory utilities.
-import java.io.*;
-import net.mindview.util.*;
-import static net.mindview.util.Print.*;
+import java.io.File;
+
+import SourceCode.net.mindview.util.Directory;
+import SourceCode.net.mindview.util.PPrint;
 
 public class DirectoryDemo {
   public static void main(String[] args) {

@@ -1,4 +1,5 @@
 //: io/DirList3.java
+package SourceCode.io;
 // Building the anonymous inner class "in-place."
 // {Args: "D.*\.java"}
 import java.util.regex.*;

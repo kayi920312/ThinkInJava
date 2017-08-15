@@ -1,4 +1,5 @@
 //: io/DirList2.java
+package SourceCode.io;
 // Uses anonymous inner classes.
 // {Args: "D.*\.java"}
 import java.util.regex.*;

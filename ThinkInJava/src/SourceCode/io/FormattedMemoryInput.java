@@ -1,4 +1,5 @@
 //: io/FormattedMemoryInput.java
+package SourceCode.io;
 import java.io.*;
 
 public class FormattedMemoryInput {

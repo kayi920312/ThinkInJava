@@ -1,8 +1,16 @@
 //: io/Worm.java
+package SourceCode.io;
 // Demonstrates object serialization.
-import java.io.*;
-import java.util.*;
-import static net.mindview.util.Print.*;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.util.Random;
+import static SourceCode.net.mindview.util.Print.*;
 
 class Data implements Serializable {
   private int n;

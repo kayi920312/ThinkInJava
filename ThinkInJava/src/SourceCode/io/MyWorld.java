@@ -1,7 +1,14 @@
 //: io/MyWorld.java
-import java.io.*;
-import java.util.*;
-import static net.mindview.util.Print.*;
+package SourceCode.io;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+import static SourceCode.net.mindview.util.Print.*;
 
 class House implements Serializable {}
 

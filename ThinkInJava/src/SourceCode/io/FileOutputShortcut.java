@@ -1,4 +1,5 @@
 //: io/FileOutputShortcut.java
+package SourceCode.io;
 import java.io.*;
 
 public class FileOutputShortcut {

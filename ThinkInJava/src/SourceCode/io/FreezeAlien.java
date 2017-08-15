@@ -1,4 +1,5 @@
 //: io/FreezeAlien.java
+package SourceCode.io;
 // Create a serialized output file.
 import java.io.*;
 

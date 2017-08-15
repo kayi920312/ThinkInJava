@@ -1,4 +1,5 @@
 //: io/StoringAndRecoveringData.java
+package SourceCode.io;
 import java.io.*;
 
 public class StoringAndRecoveringData {
